@@ -1,1 +1,6 @@
+This folder is intentionally empty.
 
+The dataset used in this project is available on Kaggle:
+https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
+
+Please download the dataset manually and place the CSV file(s) here.
