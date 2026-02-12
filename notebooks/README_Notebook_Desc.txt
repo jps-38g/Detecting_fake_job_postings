@@ -7,3 +7,5 @@ The two notebooks differ only in how TF‑IDF features are constructed.
 - Notebook 1 builds a single TF‑IDF feature matrix by combining all free‑text fields into one unified text input.
 
 - Notebook 2 builds separate TF‑IDF feature matrices for each free‑text field (e.g., description, requirements, benefits) and then uses them as distinct feature blocks in the model.
+
+Coming Soon:  Splitting the notebooks into separate "data preparation" and "modeling and results" individual notebooks 
