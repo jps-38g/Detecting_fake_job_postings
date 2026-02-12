@@ -1,0 +1,15 @@
+**Executive Summary**
+
+This project evaluates multiple machine learning techniques to detect fraudulent job postings using a Kaggle dataset of 17,880 listings, of which only 4.8% are labeled as fake. 
+
+The work spans the full data‑science lifecycle — from exploratory analysis and feature engineering to model tuning and final model selection.
+
+The dataset required substantial preprocessing due to extensive missingness, highly unstandardized categorical fields (e.g., 11,000+ unique job titles), and sparse category distributions. 
+
+Features were engineered through standardization, parsing of location and salary fields, consolidation of rare categories, and transformation of text‑heavy fields into numerical and thematic representations.
+
+Multiple models were trained and tuned, including logistic regression, random forest, and XGBoost, with class imbalance addressed via weighting. 
+
+Models were evaluated across alternative feature sets and probability thresholds. 
+
+The champion model — XGBoost using detailed text‑derived features — delivered the strongest performance on the holdout test set using the default classification threshold.
