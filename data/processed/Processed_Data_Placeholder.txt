@@ -1,1 +1,6 @@
+This folder is currently empty.
 
+The included Python notebooks include the data processing applied to the raw data from Kaggle:
+https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
+
+Coming soon:  Will provision a csv file with the processed data created with the Python provided code.
